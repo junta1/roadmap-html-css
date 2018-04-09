@@ -501,7 +501,8 @@
     width: 405px;
     height: 63px;
     font-family: Baskerville;
-    font-size: 55px;
+    font-size: 54px;
+    /*font-size: 55px;*/
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -527,5 +528,67 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    
+    margin-top: 316px;
+    margin-left: 804px;
+    position: absolute;
 }
+
+.photos {
+    width: 71px;
+    height: 23px;
+    font-family: FreightTextBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 391px;
+    margin-left: 988px;
+    margin-right: 381px;
+    position: absolute;
+}
+
+.rectangle-2 {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: solid 1px #ffffff;
+    margin-top: 394px;
+    margin-left: 955px;
+    margin-right: 469px;
+    position: absolute;
+}
+
+.rectangle-3 {
+    width: 16px;
+    height: 16px;
+    opacity: 0.52;
+    border-radius: 3px;
+    border: solid 1px #ffffff;
+    margin-top: 398px;
+    margin-left: 960px;
+    margin-right: 464px;
+    position: absolute;
+}
+
+.read-more-copy-4 {
+    width: 111px;
+    height: 32px;
+    font-family: FreightTextBook;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 484px;
+    margin-left: 909.5px;
+    margin-right: 419.5px;
+    position: absolute;
+}
+
