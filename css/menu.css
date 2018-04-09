@@ -1,0 +1,215 @@
+@import "fonts.css";
+
+/*Tamanho de toda estrutura do topo*/
+.menu-area {
+    width: 1440px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.menu {
+    width: 692px;
+    height: 100px;
+    float: left;
+    background-color: #ffffff;
+    display:inline-block
+}
+
+.br-area {
+    width: 56.6px;
+    height: 56.6px;
+    background-color: #d0021b;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 18.4px;
+    border-radius: 30px;
+}
+
+.options {
+    width: 691px;
+    height: 100px;
+    float: left;
+}
+
+.br {
+    font-family: Baskerville;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 16.8px;
+}
+
+.menu ul {
+    list-style: none;
+    margin-top: 41px;
+    margin-bottom: 39px;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.home {
+    width: 46px;
+    height: 20px;
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d0021b;
+    margin-left: 60px;
+    padding: 0;
+}
+
+.men {
+    width: 35px;
+    height: 20px;
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-left: 116.2px;
+}
+
+.women {
+    width: 57px;
+    height: 20px;
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-left: 78.2px;
+}
+
+.style-acessories {
+    width: 139px;
+    height: 20px;
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-left: 78.2px;
+}
+
+.user {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 43px;
+    margin-bottom: 45px;
+    margin-left: 233.4px;
+    margin-right: 16px;
+}
+
+.my-account {
+    float: left;
+    width: 95.8px;
+    height: 23px;
+    margin-top: 38px;
+    margin-bottom: 39px;
+    margin-right: 46.2px;
+    font-family: FreightTextBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+}
+
+.heart-area {
+    float: left;
+    width: 18px;
+    height: 18px;
+    border: solid 0.5px #000000;
+    border-radius: 30px;
+    margin-top: 39px;
+    margin-bottom: 40px;
+    margin-right: 18px;
+}
+
+.heart {
+    width: 8.7px;
+    height: 8.4px;
+    margin: 0 auto;
+}
+
+.saved-items {
+    float: left;
+    width: 88.8px;
+    height: 20px;
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+    margin-top: 39px;
+    margin-bottom: 41px;
+    margin-right: 46.3px;
+}
+
+.cart-area {
+    width: 28.4px;
+    height: 28.4px;
+    background-color: #d0021b;
+    float: left;
+    border-radius: 30px;
+    margin-top: 36.1px;
+    margin-bottom: 35.5px;
+    margin-right: 4.5px;
+}
+
+.cart {
+    width: 15px;
+    height: 15px;
+    margin: 5.80px;
+}
+
+.cart-number {
+    float: left;
+    width: 9px;
+    height: 23px;
+    font-family: FreightTextBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+    margin-top: 37px;
+    margin-bottom: 40px;
+    margin-right: 72px;
+}
+
+
+
+

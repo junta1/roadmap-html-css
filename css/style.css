@@ -1,0 +1,195 @@
+@import "menu.css";
+
+.home-page {
+    width: 1440px;
+    height: 5994px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.rectangle {
+    width: 1440px;
+    height: 16px;
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+}
+
+.header-image {
+    width: 980px;
+    height: 676px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.collection {
+    width: 1040px;
+    height: 192px;
+    margin-top: 214px;
+    margin-left: 331px;
+    margin-right: 69px;
+    position: absolute;
+}
+
+.arts-lifestyle {
+    width: 157px;
+    height: 23px;
+    font-family: Karma-SemiBold;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b74f84;
+    margin-top: 18px;
+    margin-left: 511px;
+    margin-right: 372px;
+    margin-bottom: 151px;
+    position: absolute;
+}
+
+.find-your-voice-fin {
+    width: 369px;
+    height: 126px;
+    font-family: Baskerville;
+    font-size: 55px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3b3b3b;
+    margin-top: 55px;
+    margin-bottom: 11px;
+    margin-left: 504px;
+    margin-right: 167px;
+    position: absolute;
+}
+
+.view-collection {
+    width: 164px;
+    height: 32px;
+    font-family: FreightTextBook;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+    position: absolute;
+    margin-top: 436px;
+    margin-left: 1062px;
+    margin-right: 32px;
+}
+
+.circle-filled {
+    width: 8px;
+    height: 8px;
+    background-color: #d56397;
+    position: absolute;
+    margin-top: 717px;
+    margin-left: 700px;
+    margin-right: 732px;
+    border-radius: 8px;
+}
+
+.circle01 {
+    width: 6px;
+    height: 6px;
+    background-color: #d5d5d5;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 718px;
+    margin-left: 714px;
+    margin-right: 720px;
+}
+
+.circle02 {
+    width: 6px;
+    height: 6px;
+    background-color: #d5d5d5;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 718px;
+    margin-left: 725px;
+    margin-right: 709px;
+}
+
+.circle03 {
+    width: 6px;
+    height: 6px;
+    background-color: #d5d5d5;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 718px;
+    margin-left: 734px;
+    margin-right: 700px;
+}
+
+.discover-latest {
+    width: 277px;
+    height: 51px;
+    font-family: Baskerville;
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d0021b;
+    margin-top: 786px;
+    margin-left: 582px;
+    margin-right: 581px;
+}
+
+.explore-and-browse {
+    width: 444px;
+    height: 32px;
+    font-family: FreightTextProBook;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+    margin-top: 9px;
+    margin-left: 498px;
+    margin-right: 498px;
+}
+
+.fashion-square {
+    float: left;
+    margin-top: 33px;
+    margin-left: 60px;
+}
+
+.arts-square {
+    float: left;
+    margin-top: 33px;
+    margin-left: 60px;
+}
+
+.travel-square {
+    float: left;
+    margin-top: 33px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.yellow-grade {
+    width: 1440px;
+    height: 195.5px;
+    margin-top: 281px;
+    background-color: #f8e71c;
+    /*background-image: linear-gradient( -28deg, #ffffff 0%, #ffffff 60%, #f8e71c 60%, #f8e71c 60%);*/
+}

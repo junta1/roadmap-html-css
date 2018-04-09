@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../fonts/Baskerville/baskvl.ttf');
+}
+
+/*Similar a FreightTextProBook*/
+@font-face {
+    font-family: 'FreightTextBook';
+    src: url('../fonts/Freight Text Book/Freight Text Book.otf');
+}
+
+/*Similar a FreightTextProSemibold*/
+@font-face {
+    font-family: 'Karma-SemiBold';
+    src: url('../fonts/Karma SemiBold/Karma-SemiBold.ttf');
+}
