@@ -5,6 +5,7 @@
     height: 5994px;
     background-color: #ffffff;
     margin: 0 auto;
+    position: relative;
 }
 
 .rectangle {
@@ -15,21 +16,25 @@
     top: 100px;
 }
 
+.header-area {
+    position: relative;
+}
+
 .header-image {
     width: 980px;
     height: 676px;
     position: absolute;
     z-index: -1;
-    margin-top: 13px;
-    margin-left: 60px;
+    top: 13px;
+    left: 60px;
 }
 
 .collection {
     width: 1040px;
     height: 192px;
-    margin-top: 214px;
-    margin-left: 331px;
-    margin-right: 69px;
+    top: 214px;
+    left: 331px;
+    right: 69px;
     position: absolute;
 }
 
@@ -45,10 +50,10 @@
     letter-spacing: normal;
     text-align: center;
     color: #b74f84;
-    margin-top: 18px;
-    margin-left: 511px;
-    margin-right: 372px;
-    margin-bottom: 151px;
+    top: 18px;
+    left: 511px;
+    right: 372px;
+    bottom: 151px;
     position: absolute;
 }
 
@@ -64,10 +69,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #3b3b3b;
-    margin-top: 55px;
-    margin-bottom: 11px;
-    margin-left: 504px;
-    margin-right: 167px;
+    top: 55px;
+    bottom: 11px;
+    left: 504px;
+    right: 167px;
     position: absolute;
 }
 
@@ -84,9 +89,9 @@
     text-align: center;
     color: #3b3b3b;
     position: absolute;
-    margin-top: 436px;
-    margin-left: 1062px;
-    margin-right: 32px;
+    top: 436px;
+    left: 1062px;
+    right: 32px;
 }
 
 .circle-filled {
@@ -94,9 +99,9 @@
     height: 8px;
     background-color: #d56397;
     position: absolute;
-    margin-top: 717px;
-    margin-left: 700px;
-    margin-right: 732px;
+    top: 717px;
+    left: 700px;
+    right: 732px;
     border-radius: 8px;
 }
 
@@ -106,9 +111,9 @@
     background-color: #d5d5d5;
     position: absolute;
     border-radius: 6px;
-    margin-top: 718px;
-    margin-left: 714px;
-    margin-right: 720px;
+    top: 718px;
+    left: 714px;
+    right: 720px;
 }
 
 .circle02 {
@@ -117,9 +122,9 @@
     background-color: #d5d5d5;
     position: absolute;
     border-radius: 6px;
-    margin-top: 718px;
-    margin-left: 725px;
-    margin-right: 709px;
+    top: 718px;
+    left: 725px;
+    right: 709px;
 }
 
 .circle03 {
@@ -128,9 +133,9 @@
     background-color: #d5d5d5;
     position: absolute;
     border-radius: 6px;
-    margin-top: 718px;
-    margin-left: 734px;
-    margin-right: 700px;
+    top: 718px;
+    left: 734px;
+    right: 700px;
 }
 
 .discover-latest {
@@ -145,9 +150,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #d0021b;
-    margin-top: 786px;
-    margin-left: 582px;
-    margin-right: 581px;
+    top: 786px;
+    left: 582px;
+    right: 581px;
+    position: absolute;
 }
 
 .explore-and-browse {
@@ -162,9 +168,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #666666;
-    margin-top: 9px;
-    margin-left: 498px;
-    margin-right: 498px;
+    top: 846px;
+    left: 498px;
+    right: 498px;
+    position: absolute;
 }
 
 .square-discover-latest {
@@ -173,22 +180,21 @@
 }
 
 .fashion-square {
-    /*float: left;*/
-    margin-top: 33px;
+    top: 911px;
     margin-left: 60px;
+    position: absolute;
 }
 
 .arts-square {
-    /*float: left;*/
-    margin-top: 33px;
-    margin-left: 60px;
+    top: 910px;
+    left: 520px;
+    position: absolute;
 }
 
 .travel-square {
-    /*float: left;*/
-    margin-top: 33px;
-    margin-left: 60px;
-    margin-right: 60px;
+    top: 910px;
+    left: 980px;
+    position: absolute;
 }
 
 .yellow-grade {
@@ -196,12 +202,12 @@
     color: black;
     width: 1440px;
     height: 195.5px;
-    margin-top: 240px;
     display: block;
     text-align: center;
     line-height: 50px;
     position: absolute;
     z-index: -1;
+    top: 1118px;
 }
 
 .fashion {
@@ -216,9 +222,10 @@
     letter-spacing: normal;
     text-align: center;
     color: #b74f84;
-    margin-top: 77px;
-    margin-left: 61px;
     float: left;
+    position: absolute;
+    top: 1352px;
+    left: 61px;
 }
 
 .arts-a-lifestyle {
@@ -233,9 +240,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #37bd9f;
-    margin-top: 77px;
-    margin-left: 380px;
     float: left;
+    position: absolute;
+    top: 1352px;
+    left: 519px;
 }
 
 .travel {
@@ -250,10 +258,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #4fb759;
-    margin-top: 77px;
-    margin-left: 292px;
-    margin-right: 395px;
     float: left;
+    position: absolute;
+    top: 1352px;
+    left: 979px;
 }
 
 .jeanne-moreaus-best {
@@ -268,9 +276,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #3b3b3b;
-    margin-top: 3px;
-    margin-left: 59px;
     float: left;
+    position: absolute;
+    top: 1378px;
+    left: 59px;
 }
 
 .arundhati-roy-why-h {
@@ -285,9 +294,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #3b3b3b;
-    margin-top: 3px;
-    margin-left: 60px;
     float: left;
+    position: absolute;
+    top: 1378px;
+    left: 519px;
 }
 
 .going-solo-a-girls {
@@ -302,10 +312,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #3b3b3b;
-    margin-top: 3px;
-    margin-left: 60px;
-    margin-right: 61px;
     float: left;
+    position: absolute;
+    top: 1378px;
+    left: 979px;
 }
 
 .as-it-is-announced-t {
@@ -320,9 +330,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #666666;
-    margin-top: 13px;
-    margin-left: 59px;
     float: left;
+    position: absolute;
+    top: 1459px;
+    left: 59px;
 }
 
 .twenty-years-ago-ar {
@@ -337,9 +348,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #666666;
-    margin-top: 13px;
-    margin-left: 60px;
     float: left;
+    position: absolute;
+    top: 1459px;
+    left: 519px;
 }
 
 .theres-something-in {
@@ -354,13 +366,13 @@
     letter-spacing: normal;
     text-align: left;
     color: #666666;
-    margin-top: 13px;
-    margin-left: 60px;
-    margin-right: 61px;
     float: left;
+    position: absolute;
+    top: 1459px;
+    left: 979px;
 }
 
-.read-more-copy {
+.read-more {
     width: 110px;
     height: 32px;
     font-family: FreightTextBook;
@@ -372,12 +384,13 @@
     letter-spacing: normal;
     text-align: center;
     color: #3b3b3b;
-    margin-top: 31px;
-    margin-left: 299px;
     float: left;
+    position: absolute;
+    left: 299px;
+    top: 1565px;
 }
 
-.read-more-copy-2 {
+.read-more-2 {
     width: 110px;
     height: 32px;
     font-family: FreightTextBook;
@@ -389,12 +402,13 @@
     letter-spacing: normal;
     text-align: center;
     color: #3b3b3b;
-    margin-top: 31px;
-    margin-left: 354px;
     float: left;
+    position: absolute;
+    left: 763px;
+    top: 1565px;
 }
 
-.read-more-copy-3 {
+.read-more-3 {
     width: 110px;
     height: 32px;
     font-family: FreightTextBook;
@@ -406,37 +420,34 @@
     letter-spacing: normal;
     text-align: center;
     color: #3b3b3b;
-    margin-top: 31px;
-    margin-left: 345px;
-    margin-right: 112px;
     float: left;
+    position: absolute;
+    left: 1218px;
+    top: 1565px;
 }
 
 .major-signal {
     width: 8.9px;
     height: 14.8px;
     position: absolute;
-    margin-top: 299px;
-    margin-left: 420.1px;
-    margin-right: 1011px;
+    top: 1574.2px;
+    left: 420.1px;
 }
 
 .major-signal-2 {
     width: 8.9px;
     height: 14.8px;
     position: absolute;
-    margin-top: 299px;
-    margin-left: 884.1px;
-    margin-right: 547px;
+    top: 1574.2px;
+    left: 884.1px;
 }
 
 .major-signal-3 {
     width: 8.9px;
     height: 14.8px;
     position: absolute;
-    margin-top: 299px;
-    margin-left: 1339.1px;
-    margin-right: 92px;
+    top: 1574.2px;
+    left: 1339.1px;
 }
 
 .line {
@@ -444,10 +455,10 @@
     height: 3px;
     border: solid 1px #b74f84;
     background-color: #b74f84;
-    margin-top: 22px;
-    margin-left: 60px;
-    margin-right: 60px;
     float: left;
+    position: absolute;
+    top: 1620px;
+    left: 60px;
 }
 
 .line-2 {
@@ -458,6 +469,9 @@
     margin-top: 22px;
     margin-right: 60px;
     float: left;
+    position: absolute;
+    top: 1619px;
+    left: 60px;
 }
 
 .line-3 {
@@ -467,6 +481,10 @@
     background-color: #4fb759;
     margin-top: 22px;
     float: left;
+}
+
+.orange-image-area {
+    position: relative;
 }
 
 .orange-image {
@@ -491,9 +509,9 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 196px;
-    margin-left: 939.5px;
-    margin-right: 366.5px;
+    top: 196px;
+    left: 939.5px;
+    right: 366.5px;
     position: absolute;
 }
 
@@ -510,9 +528,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin-top: 238px;
-    margin-left: 804px;
-    margin-right: 231px;
+    top: 238px;
+    left: 804px;
+    right: 231px;
     position: absolute;
 }
 
@@ -528,8 +546,8 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 316px;
-    margin-left: 804px;
+    top: 316px;
+    left: 804px;
     position: absolute;
 }
 
@@ -545,9 +563,9 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 391px;
-    margin-left: 988px;
-    margin-right: 381px;
+    top: 391px;
+    left: 988px;
+    right: 381px;
     position: absolute;
 }
 
@@ -556,9 +574,9 @@
     height: 16px;
     border-radius: 3px;
     border: solid 1px #ffffff;
-    margin-top: 394px;
-    margin-left: 955px;
-    margin-right: 469px;
+    top: 394px;
+    left: 955px;
+    right: 469px;
     position: absolute;
 }
 
@@ -568,13 +586,13 @@
     opacity: 0.52;
     border-radius: 3px;
     border: solid 1px #ffffff;
-    margin-top: 398px;
-    margin-left: 960px;
-    margin-right: 464px;
+    top: 398px;
+    left: 960px;
+    right: 464px;
     position: absolute;
 }
 
-.read-more-copy-4 {
+.read-more-4 {
     width: 111px;
     height: 32px;
     font-family: FreightTextBook;
@@ -586,9 +604,20 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 484px;
-    margin-left: 909.5px;
-    margin-right: 419.5px;
+    top: 484px;
+    left: 909.5px;
+    right: 419.5px;
     position: absolute;
+}
+
+.line-4 {
+    width: 406px;
+    height: 3px;
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    top: 538px;
+    left: 663px;
+    right: 371px;
 }
 
