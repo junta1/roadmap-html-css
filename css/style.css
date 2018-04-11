@@ -1,10 +1,14 @@
 @import "menu.css";
 
+html, body {
+    height: 100%;
+}
+
 .home-page {
     width: 1440px;
-    height: 5994px;
+    /*height: 5994px;*/
     background-color: #ffffff;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     position: relative;
 }
 
@@ -14,6 +18,7 @@
     background-color: #ffffff;
     position: relative;
     top: 100px;
+    z-index: 2;
 }
 
 .header-area {
@@ -24,7 +29,7 @@
     width: 980px;
     height: 676px;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: 13px;
     left: 60px;
 }
@@ -32,6 +37,16 @@
 .collection {
     width: 1040px;
     height: 192px;
+    opacity: 0.06;
+    font-family: WorkSans;
+    font-size: 160px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #747474;
     top: 214px;
     left: 331px;
     right: 69px;
@@ -50,11 +65,12 @@
     letter-spacing: normal;
     text-align: center;
     color: #b74f84;
-    top: 18px;
-    left: 511px;
+    top: 232px;
+    left: 842px;
     right: 372px;
     bottom: 151px;
     position: absolute;
+    z-index: 2;
 }
 
 .find-your-voice-fin {
@@ -69,11 +85,10 @@
     letter-spacing: normal;
     text-align: left;
     color: #3b3b3b;
-    top: 55px;
-    bottom: 11px;
-    left: 504px;
-    right: 167px;
+    top: 269px;
+    left: 835px;
     position: absolute;
+    z-index: 2;
 }
 
 .view-collection {
@@ -92,6 +107,18 @@
     top: 436px;
     left: 1062px;
     right: 32px;
+    z-index: 3;
+}
+
+.line-1 {
+    width: 409px;
+    height: 3px;
+    border: solid 1px #f5d7dd;
+    background-color: #f5d7dd;
+    position: absolute;
+    top: 482px;
+    left: 884px;
+    z-index: 2;
 }
 
 .circle-filled {
@@ -181,20 +208,23 @@
 
 .fashion-square {
     top: 911px;
-    margin-left: 60px;
+    left: 60px;
     position: absolute;
+    z-index: 1;
 }
 
 .arts-square {
     top: 910px;
     left: 520px;
     position: absolute;
+    z-index: 1;
 }
 
 .travel-square {
     top: 910px;
     left: 980px;
     position: absolute;
+    z-index: 1;
 }
 
 .yellow-grade {
@@ -206,7 +236,6 @@
     text-align: center;
     line-height: 50px;
     position: absolute;
-    z-index: -1;
     top: 1118px;
 }
 
@@ -450,7 +479,7 @@
     left: 1339.1px;
 }
 
-.line {
+.line-2 {
     width: 399px;
     height: 3px;
     border: solid 1px #b74f84;
@@ -461,36 +490,36 @@
     left: 60px;
 }
 
-.line-2 {
+.line-3 {
     width: 401px;
     height: 3px;
     border: solid 1px #37bd9f;
     background-color: #37bd9f;
-    margin-top: 22px;
-    margin-right: 60px;
     float: left;
     position: absolute;
     top: 1619px;
-    left: 60px;
+    left: 519px;
 }
 
-.line-3 {
+.line-4 {
     width: 400px;
     height: 3px;
     border: solid 1px #4fb759;
     background-color: #4fb759;
-    margin-top: 22px;
     float: left;
+    position: absolute;
+    top: 1620px;
+    left: 980px;
 }
 
 .orange-image-area {
     position: relative;
+    top: 1727px;
 }
 
 .orange-image {
     width: 1440px;
     height: 707px;
-    margin-top: 413.5px;
 }
 
 .orange-image img {
@@ -610,7 +639,7 @@
     position: absolute;
 }
 
-.line-4 {
+.line-5 {
     width: 406px;
     height: 3px;
     border: solid 1px #ffffff;
@@ -621,3 +650,59 @@
     right: 371px;
 }
 
+.latest-int-men {
+    width: 257px;
+    height: 51px;
+    font-family: Baskerville;
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d0021b;
+    position: absolute;
+    top: 2524px;
+    left: 592px;
+}
+
+.explore-and-browse-2 {
+    width: 444px;
+    height: 32px;
+    font-family: FreightTextBook;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+    position: absolute;
+    top: 2584px;
+    left: 498px;
+}
+
+.images-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lionel-gustave {
+    width: 860px;
+    height: 768px;
+    background-color: black;
+}
+
+.latest-in-men-image-01 {
+    width: 400px;
+    height: 362px;
+    background-color: blue;
+}
+
+.latest-in-men-image-02 {
+    width: 400px;
+    height: 362px;
+    background-color: green;
+}

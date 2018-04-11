@@ -14,3 +14,9 @@
     font-family: 'Karma-SemiBold';
     src: url('../fonts/Karma SemiBold/Karma-SemiBold.ttf');
 }
+
+/*Similar a Helvetica*/
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans/WorkSans-Light.ttf');
+}
