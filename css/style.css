@@ -1,708 +1,709 @@
 @import "menu.css";
 
-html, body {
-    height: 100%;
-}
+@media screen and (min-width: 1440px) {
 
-.home-page {
-    width: 1440px;
-    /*height: 5994px;*/
-    background-color: #ffffff;
-    /*margin: 0 auto;*/
-    position: relative;
-}
+    .home-page {
+        width: 1440px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        position: relative;
+    }
 
-.rectangle {
-    width: 1440px;
-    height: 16px;
-    background-color: #ffffff;
-    position: relative;
-    top: 100px;
-    z-index: 2;
-}
+    .home {
+        color: #d0021b;
+    }
 
-.header-area {
-    position: relative;
-}
+    .rectangle {
+        width: 1440px;
+        height: 16px;
+        background-color: #ffffff;
+    }
 
-.header-image {
-    width: 980px;
-    height: 676px;
-    position: absolute;
-    z-index: 1;
-    top: 13px;
-    left: 60px;
-}
+    .heart-area {
+        display: flex;
+    }
 
-.collection {
-    width: 1040px;
-    height: 192px;
-    opacity: 0.06;
-    font-family: WorkSans;
-    font-size: 160px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #747474;
-    top: 214px;
-    left: 331px;
-    right: 69px;
-    position: absolute;
-}
+    .header-image {
+        width: 980px;
+        height: 676px;
+        position: absolute;
+        z-index: -1;
+        top: 13px;
+        left: 60px;
+    }
 
-.arts-lifestyle {
-    width: 157px;
-    height: 23px;
-    font-family: Karma-SemiBold;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #b74f84;
-    top: 232px;
-    left: 842px;
-    right: 372px;
-    bottom: 151px;
-    position: absolute;
-    z-index: 2;
-}
+    .collection {
+        width: 1040px;
+        height: 192px;
+        opacity: 0.06;
+        font-family: WorkSans;
+        font-size: 160px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #747474;
+        top: 214px;
+        left: 331px;
+        right: 69px;
+        position: absolute;
+        z-index: -2;
+    }
 
-.find-your-voice-fin {
-    width: 369px;
-    height: 126px;
-    font-family: Baskerville;
-    font-size: 55px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #3b3b3b;
-    top: 269px;
-    left: 835px;
-    position: absolute;
-    z-index: 2;
-}
+    .arts-lifestyle {
+        width: 157px;
+        height: 23px;
+        font-family: Karma-SemiBold;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #b74f84;
+        top: 232px;
+        left: 842px;
+        right: 372px;
+        bottom: 151px;
+        position: absolute;
+        z-index: 2;
+    }
 
-.view-collection {
-    width: 164px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #3b3b3b;
-    position: absolute;
-    top: 436px;
-    left: 1062px;
-    right: 32px;
-    z-index: 3;
-}
+    .find-your-voice-fin {
+        width: 369px;
+        height: 126px;
+        font-family: Baskerville;
+        font-size: 55px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3b3b3b;
+        top: 269px;
+        left: 835px;
+        position: absolute;
+        z-index: 2;
+    }
 
-.line-1 {
-    width: 409px;
-    height: 3px;
-    border: solid 1px #f5d7dd;
-    background-color: #f5d7dd;
-    position: absolute;
-    top: 482px;
-    left: 884px;
-    z-index: 2;
-}
+    .view-collection {
+        width: 164px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3b3b3b;
+        position: absolute;
+        top: 436px;
+        left: 1062px;
+        right: 32px;
+        z-index: 3;
+    }
 
-.circle-filled {
-    width: 8px;
-    height: 8px;
-    background-color: #d56397;
-    position: absolute;
-    top: 717px;
-    left: 700px;
-    right: 732px;
-    border-radius: 8px;
-}
+    .line-1 {
+        width: 409px;
+        height: 3px;
+        border: solid 1px #f5d7dd;
+        background-color: #f5d7dd;
+        position: absolute;
+        top: 482px;
+        left: 884px;
+        z-index: 2;
+    }
 
-.circle01 {
-    width: 6px;
-    height: 6px;
-    background-color: #d5d5d5;
-    position: absolute;
-    border-radius: 6px;
-    top: 718px;
-    left: 714px;
-    right: 720px;
-}
+    .circle-filled {
+        width: 8px;
+        height: 8px;
+        background-color: #d56397;
+        position: absolute;
+        top: 717px;
+        left: 700px;
+        right: 732px;
+        border-radius: 8px;
+    }
 
-.circle02 {
-    width: 6px;
-    height: 6px;
-    background-color: #d5d5d5;
-    position: absolute;
-    border-radius: 6px;
-    top: 718px;
-    left: 725px;
-    right: 709px;
-}
+    .circle01 {
+        width: 6px;
+        height: 6px;
+        background-color: #d5d5d5;
+        position: absolute;
+        border-radius: 6px;
+        top: 718px;
+        left: 714px;
+        right: 720px;
+    }
 
-.circle03 {
-    width: 6px;
-    height: 6px;
-    background-color: #d5d5d5;
-    position: absolute;
-    border-radius: 6px;
-    top: 718px;
-    left: 734px;
-    right: 700px;
-}
+    .circle02 {
+        width: 6px;
+        height: 6px;
+        background-color: #d5d5d5;
+        position: absolute;
+        border-radius: 6px;
+        top: 718px;
+        left: 725px;
+        right: 709px;
+    }
 
-.discover-latest {
-    width: 277px;
-    height: 51px;
-    font-family: Baskerville;
-    font-size: 45px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #d0021b;
-    top: 786px;
-    left: 582px;
-    right: 581px;
-    position: absolute;
-}
+    .circle03 {
+        width: 6px;
+        height: 6px;
+        background-color: #d5d5d5;
+        position: absolute;
+        border-radius: 6px;
+        top: 718px;
+        left: 734px;
+        right: 700px;
+    }
 
-.explore-and-browse {
-    width: 444px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #666666;
-    top: 846px;
-    left: 498px;
-    right: 498px;
-    position: absolute;
-}
+    .discover-latest {
+        width: 277px;
+        height: 51px;
+        font-family: Baskerville;
+        font-size: 45px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #d0021b;
+        top: 786px;
+        left: 582px;
+        right: 581px;
+        position: absolute;
+    }
 
-.square-discover-latest {
-    display: flex;
-    flex-direction: row;
-}
+    .explore-and-browse {
+        width: 444px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        top: 846px;
+        left: 498px;
+        right: 498px;
+        position: absolute;
+    }
 
-.fashion-square {
-    top: 911px;
-    left: 60px;
-    position: absolute;
-    z-index: 1;
-}
+    .square-discover-latest {
+        display: flex;
+        flex-direction: row;
+    }
 
-.arts-square {
-    top: 910px;
-    left: 520px;
-    position: absolute;
-    z-index: 1;
-}
+    .fashion-square {
+        top: 911px;
+        left: 60px;
+        position: absolute;
+        z-index: 1;
+    }
 
-.travel-square {
-    top: 910px;
-    left: 980px;
-    position: absolute;
-    z-index: 1;
-}
+    .arts-square {
+        top: 910px;
+        left: 520px;
+        position: absolute;
+        z-index: 1;
+    }
 
-.yellow-grade {
-    background-image: radial-gradient(ellipse farthest-corner at -80% 100%, #f8e71c 0%, #f8e71c 75%, #ffffff 70%);
-    color: black;
-    width: 1440px;
-    height: 195.5px;
-    display: block;
-    text-align: center;
-    line-height: 50px;
-    position: absolute;
-    top: 1118px;
-}
+    .travel-square {
+        top: 910px;
+        left: 980px;
+        position: absolute;
+        z-index: 1;
+    }
 
-.fashion {
-    width: 78px;
-    height: 23px;
-    font-family: Karma-SemiBold;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #b74f84;
-    float: left;
-    position: absolute;
-    top: 1352px;
-    left: 61px;
-}
+    .yellow-grade {
+        background-image: radial-gradient(ellipse farthest-corner at -80% 100%, #f8e71c 0%, #f8e71c 75%, #ffffff 70%);
+        color: black;
+        width: 1440px;
+        height: 195.5px;
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        top: 1118px;
+    }
 
-.arts-a-lifestyle {
-    width: 168px;
-    height: 23px;
-    font-family: Karma-SemiBold;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #37bd9f;
-    float: left;
-    position: absolute;
-    top: 1352px;
-    left: 519px;
-}
+    .fashion {
+        width: 78px;
+        height: 23px;
+        font-family: Karma-SemiBold;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #b74f84;
+        float: left;
+        position: absolute;
+        top: 1352px;
+        left: 61px;
+    }
 
-.travel {
-    width: 66px;
-    height: 23px;
-    font-family: Karma-SemiBold;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4fb759;
-    float: left;
-    position: absolute;
-    top: 1352px;
-    left: 979px;
-}
+    .arts-a-lifestyle {
+        width: 168px;
+        height: 23px;
+        font-family: Karma-SemiBold;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #37bd9f;
+        float: left;
+        position: absolute;
+        top: 1352px;
+        left: 519px;
+    }
 
-.jeanne-moreaus-best {
-    width: 400px;
-    height: 68px;
-    font-family: Baskerville;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #3b3b3b;
-    float: left;
-    position: absolute;
-    top: 1378px;
-    left: 59px;
-}
+    .travel {
+        width: 66px;
+        height: 23px;
+        font-family: Karma-SemiBold;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #4fb759;
+        float: left;
+        position: absolute;
+        top: 1352px;
+        left: 979px;
+    }
 
-.arundhati-roy-why-h {
-    width: 400px;
-    height: 68px;
-    font-family: Baskerville;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #3b3b3b;
-    float: left;
-    position: absolute;
-    top: 1378px;
-    left: 519px;
-}
+    .jeanne-moreaus-best {
+        width: 400px;
+        height: 68px;
+        font-family: Baskerville;
+        font-size: 30px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3b3b3b;
+        float: left;
+        position: absolute;
+        top: 1378px;
+        left: 59px;
+    }
 
-.going-solo-a-girls {
-    width: 400px;
-    height: 68px;
-    font-family: Baskerville;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #3b3b3b;
-    float: left;
-    position: absolute;
-    top: 1378px;
-    left: 979px;
-}
+    .arundhati-roy-why-h {
+        width: 400px;
+        height: 68px;
+        font-family: Baskerville;
+        font-size: 30px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3b3b3b;
+        float: left;
+        position: absolute;
+        top: 1378px;
+        left: 519px;
+    }
 
-.as-it-is-announced-t {
-    width: 400px;
-    height: 75px;
-    font-family: FreightTextBook;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #666666;
-    float: left;
-    position: absolute;
-    top: 1459px;
-    left: 59px;
-}
+    .going-solo-a-girls {
+        width: 400px;
+        height: 68px;
+        font-family: Baskerville;
+        font-size: 30px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3b3b3b;
+        float: left;
+        position: absolute;
+        top: 1378px;
+        left: 979px;
+    }
 
-.twenty-years-ago-ar {
-    width: 400px;
-    height: 75px;
-    font-family: FreightTextBook;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #666666;
-    float: left;
-    position: absolute;
-    top: 1459px;
-    left: 519px;
-}
+    .as-it-is-announced-t {
+        width: 400px;
+        height: 75px;
+        font-family: FreightTextBook;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        float: left;
+        position: absolute;
+        top: 1459px;
+        left: 59px;
+    }
 
-.theres-something-in {
-    width: 400px;
-    height: 75px;
-    font-family: FreightTextBook;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #666666;
-    float: left;
-    position: absolute;
-    top: 1459px;
-    left: 979px;
-}
+    .twenty-years-ago-ar {
+        width: 400px;
+        height: 75px;
+        font-family: FreightTextBook;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        float: left;
+        position: absolute;
+        top: 1459px;
+        left: 519px;
+    }
 
-.read-more {
-    width: 110px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #3b3b3b;
-    float: left;
-    position: absolute;
-    left: 299px;
-    top: 1565px;
-}
+    .theres-something-in {
+        width: 400px;
+        height: 75px;
+        font-family: FreightTextBook;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        float: left;
+        position: absolute;
+        top: 1459px;
+        left: 979px;
+    }
 
-.read-more-2 {
-    width: 110px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #3b3b3b;
-    float: left;
-    position: absolute;
-    left: 763px;
-    top: 1565px;
-}
+    .read-more {
+        width: 110px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3b3b3b;
+        float: left;
+        position: absolute;
+        left: 299px;
+        top: 1565px;
+    }
 
-.read-more-3 {
-    width: 110px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #3b3b3b;
-    float: left;
-    position: absolute;
-    left: 1218px;
-    top: 1565px;
-}
+    .read-more-2 {
+        width: 110px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3b3b3b;
+        float: left;
+        position: absolute;
+        left: 763px;
+        top: 1565px;
+    }
 
-.major-signal {
-    width: 8.9px;
-    height: 14.8px;
-    position: absolute;
-    top: 1574.2px;
-    left: 420.1px;
-}
+    .read-more-3 {
+        width: 110px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3b3b3b;
+        float: left;
+        position: absolute;
+        left: 1218px;
+        top: 1565px;
+    }
 
-.major-signal-2 {
-    width: 8.9px;
-    height: 14.8px;
-    position: absolute;
-    top: 1574.2px;
-    left: 884.1px;
-}
+    .major-signal {
+        width: 8.9px;
+        height: 14.8px;
+        position: absolute;
+        top: 1574.2px;
+        left: 420.1px;
+    }
 
-.major-signal-3 {
-    width: 8.9px;
-    height: 14.8px;
-    position: absolute;
-    top: 1574.2px;
-    left: 1339.1px;
-}
+    .major-signal-2 {
+        width: 8.9px;
+        height: 14.8px;
+        position: absolute;
+        top: 1574.2px;
+        left: 884.1px;
+    }
 
-.line-2 {
-    width: 399px;
-    height: 3px;
-    border: solid 1px #b74f84;
-    background-color: #b74f84;
-    float: left;
-    position: absolute;
-    top: 1620px;
-    left: 60px;
-}
+    .major-signal-3 {
+        width: 8.9px;
+        height: 14.8px;
+        position: absolute;
+        top: 1574.2px;
+        left: 1339.1px;
+    }
 
-.line-3 {
-    width: 401px;
-    height: 3px;
-    border: solid 1px #37bd9f;
-    background-color: #37bd9f;
-    float: left;
-    position: absolute;
-    top: 1619px;
-    left: 519px;
-}
+    .line-2 {
+        width: 399px;
+        height: 3px;
+        border: solid 1px #b74f84;
+        background-color: #b74f84;
+        float: left;
+        position: absolute;
+        top: 1620px;
+        left: 60px;
+    }
 
-.line-4 {
-    width: 400px;
-    height: 3px;
-    border: solid 1px #4fb759;
-    background-color: #4fb759;
-    float: left;
-    position: absolute;
-    top: 1620px;
-    left: 980px;
-}
+    .line-3 {
+        width: 401px;
+        height: 3px;
+        border: solid 1px #37bd9f;
+        background-color: #37bd9f;
+        float: left;
+        position: absolute;
+        top: 1619px;
+        left: 519px;
+    }
 
-.orange-image-area {
-    position: relative;
-    top: 1727px;
-}
+    .line-4 {
+        width: 400px;
+        height: 3px;
+        border: solid 1px #4fb759;
+        background-color: #4fb759;
+        float: left;
+        position: absolute;
+        top: 1620px;
+        left: 980px;
+    }
 
-.orange-image {
-    width: 1440px;
-    height: 707px;
-}
+    .orange-image-area {
+        position: relative;
+        top: 1727px;
+    }
 
-.orange-image img {
-    position: absolute;
-}
+    .orange-image {
+        width: 1440px;
+        height: 707px;
+    }
 
-.things-to-eat {
-    width: 134px;
-    height: 23px;
-    font-family: Karma-SemiBold;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    top: 196px;
-    left: 939.5px;
-    right: 366.5px;
-    position: absolute;
-}
+    .orange-image img {
+        position: absolute;
+    }
 
-.food-for-thought {
-    width: 405px;
-    height: 63px;
-    font-family: Baskerville;
-    font-size: 54px;
-    /*font-size: 55px;*/
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    top: 238px;
-    left: 804px;
-    right: 231px;
-    position: absolute;
-}
+    .things-to-eat {
+        width: 134px;
+        height: 23px;
+        font-family: Karma-SemiBold;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        top: 196px;
+        left: 939.5px;
+        right: 366.5px;
+        position: absolute;
+    }
 
-.this-vegetarian-stal {
-    width: 428px;
-    height: 50px;
-    font-family: FreightTextBook;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    top: 316px;
-    left: 804px;
-    position: absolute;
-}
+    .food-for-thought {
+        width: 405px;
+        height: 63px;
+        font-family: Baskerville;
+        font-size: 54px;
+        /*font-size: 55px;*/
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        top: 238px;
+        left: 804px;
+        right: 231px;
+        position: absolute;
+    }
 
-.photos {
-    width: 71px;
-    height: 23px;
-    font-family: FreightTextBook;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    top: 391px;
-    left: 988px;
-    right: 381px;
-    position: absolute;
-}
+    .this-vegetarian-stal {
+        width: 428px;
+        height: 50px;
+        font-family: FreightTextBook;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        top: 316px;
+        left: 804px;
+        position: absolute;
+    }
 
-.rectangle-2 {
-    width: 16px;
-    height: 16px;
-    border-radius: 3px;
-    border: solid 1px #ffffff;
-    top: 394px;
-    left: 955px;
-    right: 469px;
-    position: absolute;
-}
+    .photos {
+        width: 71px;
+        height: 23px;
+        font-family: FreightTextBook;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        top: 391px;
+        left: 988px;
+        right: 381px;
+        position: absolute;
+    }
 
-.rectangle-3 {
-    width: 16px;
-    height: 16px;
-    opacity: 0.52;
-    border-radius: 3px;
-    border: solid 1px #ffffff;
-    top: 398px;
-    left: 960px;
-    right: 464px;
-    position: absolute;
-}
+    .rectangle-2 {
+        width: 16px;
+        height: 16px;
+        border-radius: 3px;
+        border: solid 1px #ffffff;
+        top: 394px;
+        left: 955px;
+        right: 469px;
+        position: absolute;
+    }
 
-.read-more-4 {
-    width: 111px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    top: 484px;
-    left: 909.5px;
-    right: 419.5px;
-    position: absolute;
-}
+    .rectangle-3 {
+        width: 16px;
+        height: 16px;
+        opacity: 0.52;
+        border-radius: 3px;
+        border: solid 1px #ffffff;
+        top: 398px;
+        left: 960px;
+        right: 464px;
+        position: absolute;
+    }
 
-.line-5 {
-    width: 406px;
-    height: 3px;
-    border: solid 1px #ffffff;
-    background-color: #ffffff;
-    position: absolute;
-    top: 538px;
-    left: 663px;
-    right: 371px;
-}
+    .read-more-4 {
+        width: 111px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        top: 484px;
+        left: 909.5px;
+        right: 419.5px;
+        position: absolute;
+    }
 
-.latest-int-men {
-    width: 257px;
-    height: 51px;
-    font-family: Baskerville;
-    font-size: 45px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #d0021b;
-    position: absolute;
-    top: 2524px;
-    left: 592px;
-}
+    .line-5 {
+        width: 406px;
+        height: 3px;
+        border: solid 1px #ffffff;
+        background-color: #ffffff;
+        position: absolute;
+        top: 538px;
+        left: 663px;
+        right: 371px;
+    }
 
-.explore-and-browse-2 {
-    width: 444px;
-    height: 32px;
-    font-family: FreightTextBook;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #666666;
-    position: absolute;
-    top: 2584px;
-    left: 498px;
-}
+    .latest-int-men {
+        width: 257px;
+        height: 51px;
+        font-family: Baskerville;
+        font-size: 45px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #d0021b;
+        position: absolute;
+        top: 2524px;
+        left: 592px;
+    }
 
-.images-area {
-    display: flex;
-    flex-wrap: wrap;
-}
+    .explore-and-browse-2 {
+        width: 444px;
+        height: 32px;
+        font-family: FreightTextBook;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        position: absolute;
+        top: 2584px;
+        left: 498px;
+    }
 
-.lionel-gustave {
-    width: 860px;
-    height: 768px;
-    background-color: black;
-}
+    .images-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.latest-in-men-image-01 {
-    width: 400px;
-    height: 362px;
-    background-color: blue;
-}
+    .lionel-gustave {
+        width: 860px;
+        height: 768px;
+        background-color: black;
+    }
 
-.latest-in-men-image-02 {
-    width: 400px;
-    height: 362px;
-    background-color: green;
+    .latest-in-men-image-01 {
+        width: 400px;
+        height: 362px;
+        background-color: blue;
+    }
+
+    .latest-in-men-image-02 {
+        width: 400px;
+        height: 362px;
+        background-color: green;
+    }
+
 }
