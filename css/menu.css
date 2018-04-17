@@ -9,7 +9,6 @@ nav {
 }
 
 .menu-left {
-    border: solid black 1px;
     width: 48.1%;
 }
 
@@ -20,13 +19,28 @@ nav {
     margin: 0;
 }
 
+.menu-left ul li {
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
 .menu-right {
-    border: solid black 1px;
     width: 48%;
 }
 
 .br {
-    border: solid black 1px;
     width: 3.9%;
+}
+
+.home {
+    width: 46px;
+    height: 20px;
+    padding-left: 4.2%;
 }
 
