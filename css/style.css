@@ -1,5 +1,11 @@
 @import "menu.css";
 
+/*Resetando elementos*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-weight: normal;
     font-style: normal;
@@ -7,3 +13,24 @@ body {
     line-height: normal;
     letter-spacing: normal;
 }
+
+/*.slider {*/
+    /*display: block;*/
+    /*height: 400px;*/
+    /*width: 365px;*/
+    /*margin: auto;*/
+    /*margin-top: 20px;*/
+    /*position: relative;*/
+/*}*/
+
+/*.slider li {*/
+    /*list-style: none;*/
+    /*position: absolute;*/
+/*}*/
+
+/*.slider img {*/
+    /*margin: auto;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*vertical-align: top;*/
+/*}*/

@@ -58,15 +58,15 @@ nav {
         background-color: #d0021b;
     }
     25% {
-        background-color: #ffff00;
+        background-color: #0000ff;
         border-radius: inherit;
     }
     50% {
-        background-color: blue;
+        background-color: #d0021b;
         border-radius: 56.6px;
     }
     100% {
-        background-color: green;
+        background-color: #009900;
         border-radius: inherit;
     }
 }
@@ -82,24 +82,28 @@ nav {
     width: 46px;
     height: 20px;
     margin-left: 60px;
+    cursor:pointer;
 }
 
 .men {
     width: 35px;
     height: 20px;
     margin-left: 116.2px;
+    cursor:pointer;
 }
 
 .women {
     width: 57px;
     height: 20px;
     margin-left: 78.2px;
+    cursor:pointer;
 }
 
 .style-e-acessories {
     width: 139px;
     height: 20px;
     margin-left: 78.2px;
+    cursor:pointer;
 }
 
 /*Item Menu Right*/
@@ -107,6 +111,7 @@ nav {
     width: 12px;
     height: 12px;
     margin-right: 16px;
+    cursor:pointer;
 }
 
 .my-account {
@@ -117,6 +122,7 @@ nav {
     text-align: center;
     color: #3b3b3b;
     margin-right: 46.2px;
+    cursor:pointer;
 }
 
 .heart {
@@ -132,6 +138,7 @@ nav {
 .heart-icon {
     width: 8.7px;
     height: 8.7px;
+    cursor:pointer;
 }
 
 .saved-items {
@@ -142,6 +149,7 @@ nav {
     text-align: center;
     color: #3b3b3b;
     margin-right: 46.3px;
+    cursor:pointer;
 }
 
 .cart {
@@ -152,6 +160,7 @@ nav {
     display: flex;
     justify-content: center;
     margin-right: 4.5px;
+    cursor:pointer;
 }
 
 .cart-number {
@@ -162,5 +171,6 @@ nav {
     text-align: left;
     color: #666666;
     margin-right: 72px;
+    cursor:pointer;
 }
 
